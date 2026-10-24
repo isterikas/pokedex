@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Pokédex of Anomalies",
+    "slug": "pokedex-of-anomalies",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#f5f3ef",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.anomalies.pokedex" },
+    "android": { "package": "com.anomalies.pokedex" },
+    "web": {
+      "name": "Pokédex of Anomalies",
+      "shortName": "Pokédex",
+      "bundler": "metro",
+      "output": "single",
+      "themeColor": "#ed4245",
+      "backgroundColor": "#f5f3ef"
+    },
+    "plugins": []
+  }
+}

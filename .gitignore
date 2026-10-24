@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+web-build/
+coverage/
+.cache/
+.DS_Store
+*.tsbuildinfo
+src/data/pokemon.json
+src/assets/sprites/*.png
+reports/*.json
+docs/screenshots/*.png
+docs/screenshots/*.jpg
+

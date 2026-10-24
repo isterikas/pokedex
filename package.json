@@ -1,0 +1,47 @@
+{
+  "name": "pokedex-of-anomalies",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "generate": "tsx scripts/generatePokemonData.ts",
+    "validate": "tsx scripts/validatePokemonData.ts && tsx scripts/validateSprites.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "jest --runInBand",
+    "check": "npm run typecheck && npm run lint && npm test",
+    "export:web": "expo export --platform web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/space-mono": "^0.4.2",
+    "@expo/metro-runtime": "~58.0.15",
+    "expo": "~58.0.19",
+    "expo-font": "~58.0.10",
+    "expo-image": "~58.0.17",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-dom": "^19.3.0",
+    "react-native": "0.88.0",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-web": "^0.21.4"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "^14.1.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "~19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-expo": "~58.0.4",
+    "jest": "^30.5.2",
+    "jest-expo": "~58.0.12",
+    "prettier": "^3.9.10",
+    "tsx": "^4.20.0",
+    "typescript": "~6.0.3"
+  }
+}

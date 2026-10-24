@@ -1,0 +1,9 @@
+node_modules
+.expo
+dist
+.cache
+coverage
+src/data/pokemon.json
+reports
+package-lock.json
+
